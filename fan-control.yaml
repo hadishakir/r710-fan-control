@@ -1,8 +1,5 @@
 ---
 # configuration file for sulaweyo/r710-fan-control
-:user: 'root'           # idrac user
-:pass: 'your password'  # idrac password
-:host: 'your idrac ip'  # idrac ip
 :interval: 5            # time between checks in control loop
 :max_manual_temp: 66    # switch back to automatic fan control at this temp
 :cool_down_time: 120    # after switch to automatic wait that long before checking again

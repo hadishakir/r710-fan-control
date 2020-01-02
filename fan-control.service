@@ -3,8 +3,8 @@ Description=R710 fan control
 
 [Service]
 Type=simple
-User=<your user>
-Group=<your group>
+User=root
+Group=root
 ExecStart=/opt/r710-fan-control/Fan-Control-CLI.rb start
 ExecStopPost=/opt/r710-fan-control/Fan-Control-CLI.rb reset
 WorkingDirectory=/opt/r710-fan-control
